@@ -14,8 +14,7 @@ export default class KitchenSet extends Component {
                             <div className="Products_Cards">
                                 {
                                     Furniture.map(kitchenset => {
-                                        console.log(kitchenset)
-                                        if (kitchenset.category == "kitchhen") {
+                                        if (kitchenset.category === "kitchhen") {
                                             return (
                                                 <div key={kitchenset.id} className="ProductCard">
                                                     <div className="overlayTop">
@@ -24,6 +23,7 @@ export default class KitchenSet extends Component {
                                                     <img src={kitchenset.image} className="Productİmg" />
                                                     <p className="ProductName">{kitchenset.name}</p>
                                                     <div className="overlayBottom">
+                                                        <p className="product_price">{kitchenset.price}</p>
                                                         <p className="AboutProduct">{kitchenset.aboutinfo}</p>
                                                     </div>
                                                 </div>

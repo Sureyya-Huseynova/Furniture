@@ -33,7 +33,7 @@ export default function App() {
         <Route exact path="/LivingRoom" component={KitchenSet} />
         <Route exact path="/register" component={Registr} />
       </div>
-      <Footer />
+      <Footer/>
     </Router>
   )
 }

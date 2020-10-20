@@ -59,17 +59,17 @@ export default class Registr extends Component {
         var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         if (this.state.name.length < 1 || this.state.surname.length < 1 || this.state.phoneNumber.length < 1 || this.state.cardNumber.length < 1) {
             this.setState({
-                empty: "Xanani doldurun"
+                empty: "Xananı doldurun"
             })
             e.target.style.backgroundColor = "red";
         }
-        else if (regex.test(this.state.mail) == false) {
+        else if (regex.test(this.state.mail) === false) {
             this.setState({
                 formail: "Email duzgun daxil edin [ @/./com/ru ]"
             })
             e.target.style.backgroundColor = "red";
         }
-        else if (this.state.password != this.state.repeatpassword) {
+        else if (this.state.password !== this.state.repeatpassword) {
             this.setState({
                 forpassword: "Shifreni duzgun daxil edin."
             })
