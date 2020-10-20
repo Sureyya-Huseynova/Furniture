@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
 
-const SearchResult = ({ searchbaza }) => {
-    const searchresaultdatas = searchbaza.map(searchresaultdata => {
+const SearchResult = ({ searchstorage }) => {
+    const searchresaultdatas = searchstorage.map(searchresaultdata => {
         return (
             <div style={{ fontSize: "20px" }} key={searchresaultdata.id} className="ProductCard">
                 <div className="overlayTop">

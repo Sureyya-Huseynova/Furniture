@@ -13,21 +13,21 @@ import SearchResult from './_SearchResault/SearchResault';
 export default function App() {
   const datas = useContext(ProductsContext);
   let searchValue = datas.searchValue;
-  const [searchbaza, searchset] = useState([]);
+  const [searchstorage, searchset] = useState([]);
   function searchSpace(e) {
     searchValue = e.target.value;
   }
   function searchProduct() {
     if(searchValue !== null){
       const filteredData = datas.Furniture.filter(data => data.name.toLowerCase().includes(searchValue.toLowerCase()));
-      searchset([...searchbaza, ...filteredData]);
+      searchset([...searchstorage, ...filteredData]);
     }
   }
   return (
     <Router>
       <div>
         <Navbar onClick={searchSpace} searchProduct={searchProduct} />
-        <SearchResult searchbaza={searchbaza} />
+        <SearchResult searchstorage={searchstorage} />
         <Route exact path="/" component={Home} />
         <Route exact path="/SoftSet" component={SoftSetes} />
         <Route exact path="/LivingRoom" component={KitchenSet} />
