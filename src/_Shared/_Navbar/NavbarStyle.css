@@ -1,0 +1,133 @@
+.header{
+    background-image: url(../../_Image/koltuk.jpg);
+    min-height: 450px;
+    padding-top: 3rem;
+}
+.header_social_icons{
+    width: 18%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_social_icon{
+    width: 20%;
+    padding: 3px;
+    border-radius: 30%;
+    font-size: 3rem;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 300ms;
+    border: none;
+    border: 1px solid rgb(179, 158, 121);
+}
+.header_social_icon:hover{
+    box-shadow: navy 1px 1px 0.6px;
+    border: 1.2px solid rgb(121, 106, 79);
+}
+.header_social_icon_button_facebook{
+    background-color: blue;
+    color: white;
+}
+.header_social_icon_button_instagram{
+    background-image: linear-gradient(to left, rgb(255, 0, 170) , rgba(252, 252, 8, 0.884));
+    color: white;
+}
+.header_social_icon_button_linkedin{
+    background-color: white;
+    color: rgb(15, 131, 160);
+}
+.header_social_icon:focus{
+    border: none;
+    outline: none;
+}
+/* navbar */
+nav{
+    background-color:rgba(141, 140, 138, 0.336);
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navbar_list{
+    display: flex;
+    list-style-type: none; 
+    width: 54%;
+}
+.navbar_list .navbar_list_item{
+    padding-top: 0.8rem;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+.navbar_list .navbar_list_item:first-child{
+    width: 40%;
+}
+.navbar_list .navbar_list_item .link{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+}
+.navbar_list .navbar_list_item:hover{
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 5px;
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.493);
+}
+.navbar_list .navbar_list_item .link:hover{
+    color: rgba(247, 240, 214, 0.712);
+}
+.navbar_list .navbar_list_item .link:focus{
+    color: rgb(65, 146, 119);
+}
+/* search input */
+.search_div{
+    border-bottom: 1.5px solid black;
+    padding: 0px 1.7rem;
+    width: 25%;
+    padding-top: 1rem;
+}
+.searchinput{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.7rem;
+    width: 85%;
+    color: white;
+    letter-spacing: 1px;
+}
+.searchinput::placeholder{
+    color: rgb(218, 214, 214);
+}
+.searchinput:focus::placeholder{
+    color: rgba(163, 152, 131, 0.486);
+}
+.searchIcon{
+    display: inline-block;
+    font-size: 1.7rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+@media(max-width:700px){
+    .header_social_icons{
+        width: 40%;
+    }
+    .navbar_list{
+        width: 100%;
+        display: block;
+    }
+    .navbar_list .navbar_list_item{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .navbar_list .navbar_list_item:first-child{
+        width: 100%;
+    }
+    .search_div{
+      width: 90%;    
+      margin: auto;
+      padding: 0px 1rem;
+    }
+}

@@ -1,0 +1,66 @@
+.kredi{
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+}
+.homecard_list{
+    min-height: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 7rem auto;
+}
+.homecard{
+    border: rgb(192, 156, 38) 1px solid;
+    width: 46%;
+    height: 35rem;
+    transition: 400ms;
+    box-shadow: rgb(148, 112, 12) 0.5px 1px 0.5px;
+    background-size: cover;
+}
+.homecard:hover{
+    transform: scale(1.06);
+    box-shadow: rgb(80, 80, 80) 1px 1px 1px;
+}
+.card1{
+    background-image: url(https://www.saraylimobilya.com.tr/uploads/productsimages/zebra-koltuk-takimi-1.jpg);
+}
+.card2{
+    background-image: url(../_Image/bed2.jpg);
+}
+.card3{
+    background-image: url(../_Image/yemektakim1.jpg);
+}
+.card4{
+    background-image: url(https://www.idermobilya.com/Uploads/UrunResimleri/buyuk/carnia-koltuk-takimi-6e08.jpg);
+}
+.home_img_one{
+    background-image: url(https://st-cetmen.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/trian2342-triana-koltuk-takimi-637185074977481532.jpg);
+    min-height: 170px; 
+    font-size: 5rem;
+    padding-top: 5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.home_img_two{
+    background-image: url(https://www.irfanhome.com/bianis-yemek-odasi-takimi-88571-39-B.jpg);
+    min-height: 180px; 
+    padding-top: 8rem;
+    text-align: center;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width:700px){
+    .homecard{
+        width: 100%;
+    }
+    .homecard{
+        margin-bottom: 5rem;
+    }
+}
