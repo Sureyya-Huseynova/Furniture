@@ -11,35 +11,35 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className="header parallax">
-                <div className="header_social_icons">
-                    <button className="header_social_icon header_social_icon_button_facebook">
+                <div className="HeaderSocialIcons">
+                    <button className="HeaderSocialIcon HeaderSocialIconFacebook">
                         <i className="fab fa-facebook-f"></i>
                     </button>
-                    <button className="header_social_icon header_social_icon_button_instagram">
+                    <button className="HeaderSocialIcon HeaderSocialIconInstagram">
                         <i className="fab fa-instagram"></i>
                     </button>
-                    <button className="header_social_icon header_social_icon_button_linkedin">
+                    <button className="HeaderSocialIcon HeaderSocialIconLinkedin">
                         <i className="fab fa-linkedin-in"></i>
                     </button>
                 </div>
                 <nav>
-                    <ul className="navbar_list">
-                        <li className="navbar_list_item">
+                    <ul className="NavbarList">
+                        <li className="NavbarItem">
                             <Link to="/" className="link">
                                 <i className="fas fa-home" style={{ fontSize: "3.2rem" }}></i>
                             </Link>
                         </li>
-                        <li className="navbar_list_item">
+                        <li className="NavbarItem">
                             <Link to="/SoftSet" className="link">YUMUŞAQ DƏST</Link>
                         </li>
-                        <li className="navbar_list_item">
+                        <li className="NavbarItem">
                             <Link to="/LivingRoom" className="link">MƏTBƏX DƏSTİ</Link>
                         </li>
                     </ul>
-                    <div className="search_div" >
-                        <input type="search" className="searchinput" placeholder="Search products.."
+                    <div className="SearchDiv" >
+                        <input type="search" className="SearchInput" placeholder="Search products.."
                             onChange={this.props.onClick} onKeyPress={this.SearchInputPressEnter}/>
-                        <span onClick={this.props.searchProduct} className="searchIcon">
+                        <span onClick={this.props.searchProduct} className="SearchIcon">
                             <i className="fas fa-search"></i>
                         </span>
                     </div>

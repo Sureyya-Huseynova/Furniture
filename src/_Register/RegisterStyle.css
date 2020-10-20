@@ -21,7 +21,7 @@ form input:focus{
     outline: none;
     background-color: rgba(216, 213, 176, 0.418);
 }
-.registrkitchen{
+.RegisterKitchenImg{
     margin: 5rem 2rem;
     width: 35%;
     height: auto;
@@ -29,7 +29,7 @@ form input:focus{
     background-size: cover;
     border-top-left-radius: 43%;
 }
-.submit{
+.Submit{
     background-color: orange;
     width: 60%;
     border: none;
@@ -44,15 +44,15 @@ form input:focus{
     padding: 1rem;
     transition: 300ms;
 }
-.submit:hover{
+.Submit:hover{
     background-color: rgb(238, 155, 2);  
 }
-.error{
+.Error{
     color: rgb(253, 0, 0);
     width: 80%;
     text-align: center;
 }
-.three_offer{
+.ThreeOfferRegister{
     width: 100%;
     background-color: wheat;
     display: flex;
@@ -60,7 +60,7 @@ form input:focus{
     justify-content: space-between;
     padding: 2rem 4rem; 
 }
-.offer_div{
+.OfferDiv{
     text-align: center;
     background-color: white;
     width: 26%;
@@ -68,7 +68,7 @@ form input:focus{
     padding: 2.5rem;
     border-radius: 15px;
 }
-.offer_icon{
+.OfferIcon{
     width: 20%;
     margin: auto;
     background-color: rgb(202, 144, 78);
@@ -78,11 +78,11 @@ form input:focus{
     padding: 1.5rem 1rem;
     margin-bottom: 2rem;
 }
-.offer_name{
+.OfferName{
     font-size: 1.5rem;
     color: black;
 }
-.offer{
+.Offer{
     width: 80%;
     margin: auto;
     font-size: 1.4rem;
@@ -90,7 +90,7 @@ form input:focus{
 }
 
 @media(max-width:700px){
-    .offer_div{
+    .OfferDiv{
         width: 100%;
         margin: 2rem;
     }
@@ -101,11 +101,11 @@ form input:focus{
     form input{
         width: 90%;
     }
-    .registrkitchen{
+    .RegisterKitchenImg{
         width: 100%;
         height: 30rem;
     }
-    .offer_icon{
+    .OfferIcon{
         width: 14%;
     }
 }

@@ -9,19 +9,19 @@ footer{
     line-height: 2.4rem; 
 }
 /* Footer have 4 section */
-.footer_section{
+.FooterSection{
     width: 22%;
     text-align: center;
     padding: 1rem;
 }
-.section_name{
+.SectionName{
     color: white !important;
     font-size: 2.2rem;
     text-shadow: 0.2px 0.2px white;
     margin-bottom: 2rem;
     text-align: center !important;
 }
-.footer_social_icon{
+.FooterSocialIcon{
     display: inline-block;
     width:21%;
     font-size: 1.6rem;
@@ -35,26 +35,26 @@ footer{
     border: rgb(12, 12, 12) 5px solid;
     transition: 500ms ease-in-out;
 }
-.footer_social_icon:hover{
+.FooterSocialIcon:hover{
     background-color: rgba(182, 181, 181, 0.199);
     border: rgba(153, 205, 50, 0.274) 5px solid;
 }
-.open_hours_list{
+.OpenHoursList{
     display: block;
     width: 100%;
 }
-.open_hours{
+.OpenHours{
     width: 100%;
     border-bottom: rgba(27, 27, 27, 0.966) 0.1px solid;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.1rem;
 }
-.footimg{
+.FootImg{
     width: 100%;
     height: 80%;
 }
-.footer_btn{
+.FooterBtn{
     width: 90%;
     margin: 0.5rem auto;
     text-align: center;
@@ -64,26 +64,26 @@ footer{
     outline: none;
     transition: 200ms ease-in-out;
 }
-.email_input{
+.EmailInput{
     background-color: rgba(92, 92, 92, 0.411);
     border: none;
 }
-.email_input:focus{
+.EmailInput:focus{
     background-color: rgba(252, 209, 92, 0.664);
 }
-.submit_btn{
+.SubmitBtn{
     border: rgba(248, 223, 79, 0.705) 0.5px solid;
     font-size: 1.7rem;
     font-weight: 600;
 }
-.submit_btn:hover{
+.SubmitBtn:hover{
     text-align: center;
     align-items: center;
     cursor: pointer;
     background-color: rgba(112, 103, 112, 0.411);
     border: rgb(250, 184, 3) 1px solid;
 }
-.footend{
+.FootEnd{
     background-color: black;
     color: rgb(199, 198, 198);
     padding-bottom: 7rem;
@@ -94,10 +94,10 @@ footer{
     .footer{
         display: block;
     }
-    .footer_section{
+    .FooterSection{
         width: 100%;
     }
-    .footer_social_icon{
+    .FooterSocialIcon{
         width: 11%;
     }
 }

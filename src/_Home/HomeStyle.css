@@ -1,9 +1,9 @@
-.kredi{
+.KrediImg{
     display: flex;
     width: 70%;
     margin: 40px auto;
 }
-.homecard_list{
+.HomecardImgList{
     min-height: 80rem;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
     width: 80%;
     margin: 7rem auto;
 }
-.homecard{
+.Homecard{
     border: rgb(192, 156, 38) 1px solid;
     width: 46%;
     height: 35rem;
@@ -19,7 +19,7 @@
     box-shadow: rgb(148, 112, 12) 0.5px 1px 0.5px;
     background-size: cover;
 }
-.homecard:hover{
+.Homecard:hover{
     transform: scale(1.06);
     box-shadow: rgb(80, 80, 80) 1px 1px 1px;
 }
@@ -35,7 +35,7 @@
 .card4{
     background-image: url(https://www.idermobilya.com/Uploads/UrunResimleri/buyuk/carnia-koltuk-takimi-6e08.jpg);
 }
-.home_img_one{
+.HomeImgParallaxOne{
     background-image: url(https://st-cetmen.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/trian2342-triana-koltuk-takimi-637185074977481532.jpg);
     min-height: 170px; 
     font-size: 5rem;
@@ -44,7 +44,7 @@
     color: white;
     text-align: center;
 }
-.home_img_two{
+.HomeImgParallaxTwo{
     background-image: url(https://www.irfanhome.com/bianis-yemek-odasi-takimi-88571-39-B.jpg);
     min-height: 180px; 
     padding-top: 8rem;
@@ -57,10 +57,8 @@
     background-size: cover;
 }
 @media(max-width:700px){
-    .homecard{
+    .Homecard{
         width: 100%;
-    }
-    .homecard{
         margin-bottom: 5rem;
     }
 }

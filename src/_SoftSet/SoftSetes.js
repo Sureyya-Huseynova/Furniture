@@ -11,19 +11,19 @@ export default class SoftSetes extends Component {
                     value => {
                         const { Furniture } = value;
                         return (
-                            <div className="Products_Cards">
+                            <div className="ProductsCards">
                                 {
                                     Furniture.map(softset => {
                                         if (softset.category === "softset") {
                                             return (
                                                 <div key={softset.id} className="ProductCard">
-                                                    <div className="overlayTop">
-                                                        <Link className="link buynow" to="register">indi al</Link>
+                                                    <div className="OverlayTop">
+                                                        <Link className="link BuyNow" to="register">indi al</Link>
                                                     </div>
                                                     <img src={softset.image} className="Productİmg" />
                                                     <p className="ProductName">{softset.name}</p>
-                                                    <div className="overlayBottom">
-                                                        <p className="product_price">{softset.price}</p>
+                                                    <div className="OverlayBottom">
+                                                        <p className="ProductPrice">{softset.price}</p>
                                                         <p className="AboutProduct">{softset.aboutinfo}</p>
                                                     </div>
                                                 </div>

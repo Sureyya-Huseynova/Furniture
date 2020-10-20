@@ -1,5 +1,5 @@
 /* Context Products */
-.Products_Cards{
+.ProductsCards{
     width: 84%;
     margin: 3rem auto;
     display: flex;
@@ -34,13 +34,13 @@
     top: 10%;  
     padding: 3rem;
 }
-.product_price{
+.ProductPrice{
     font-size: 2rem;
     font-weight: 900;
     padding-top: 1rem;
     padding-left: 3rem;
 }
-.overlayTop, .overlayBottom{
+.OverlayTop, .OverlayBottom{
     position: absolute;
     left: 0;
     right: 0;
@@ -51,21 +51,21 @@
     transition: .5s ease;
     color: white;
 }
-.overlayTop{
+.OverlayTop{
     bottom: 100%;
 }
-.overlayBottom{
+.OverlayBottom{
     bottom: 0;
     margin: auto;
 }
-.ProductCard:hover .overlayTop{
+.ProductCard:hover .OverlayTop{
     bottom: 19.5rem;
     height: 46%;
 }
-.ProductCard:hover .overlayBottom{
+.ProductCard:hover .OverlayBottom{
     height: 46%;;
 }
-.buynow{
+.BuyNow{
     font-size: 1.8rem;
     position: absolute;
     top: 50%;
@@ -84,7 +84,7 @@
     color: white;
     letter-spacing: 1.2px;
 }
-.buynow:hover{
+.BuyNow:hover{
     background-color:rgba(40, 168, 40, 0.24);
 } 
 

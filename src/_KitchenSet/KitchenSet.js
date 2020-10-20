@@ -11,19 +11,19 @@ export default class KitchenSet extends Component {
                     value => {
                         const { Furniture } = value;
                         return (
-                            <div className="Products_Cards">
+                            <div className="ProductsCards">
                                 {
                                     Furniture.map(kitchenset => {
                                         if (kitchenset.category === "kitchhen") {
                                             return (
                                                 <div key={kitchenset.id} className="ProductCard">
-                                                    <div className="overlayTop">
-                                                        <Link className="link buynow" to="register">indi al</Link>
+                                                    <div className="OverlayTop">
+                                                        <Link className="link BuyNow" to="register">indi al</Link>
                                                     </div>
                                                     <img src={kitchenset.image} className="Productİmg" />
                                                     <p className="ProductName">{kitchenset.name}</p>
-                                                    <div className="overlayBottom">
-                                                        <p className="product_price">{kitchenset.price}</p>
+                                                    <div className="OverlayBottom">
+                                                        <p className="ProductPrice">{kitchenset.price}</p>
                                                         <p className="AboutProduct">{kitchenset.aboutinfo}</p>
                                                     </div>
                                                 </div>

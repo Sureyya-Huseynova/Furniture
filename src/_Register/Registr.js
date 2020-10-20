@@ -121,33 +121,33 @@ export default class Registr extends Component {
                     <div>
                         <p>Parolu təkrar daxil edin.</p>
                         <input type="password" placeholder={this.state.empty} value={this.state.repeatpassword} onChange={this.handleInputMailPasswordRepeat} />
-                        <p className="error">{this.state.forpassword}</p>
+                        <p className="Error">{this.state.forpassword}</p>
                     </div>
-                    <div className="submit" onClick={this.handleSubmit}> Təsdiq Et</div>
+                    <div className="Submit" onClick={this.handleSubmit}> Təsdiq Et</div>
                 </form>
-                <div className="registrkitchen"></div>
+                <div className="RegisterKitchenImg"></div>
              
-                <div className="three_offer">
-                    <div className="offer_div">
-                        <p className="offer_icon">
+                <div className="ThreeOfferRegister">
+                    <div className="OfferDiv">
+                        <p className="OfferIcon">
                             <i className="fas fa-bus-alt"></i>
                         </p>
-                        <p className="offer_name">Güvənli çatdırılma.</p>
-                        <p className="offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
+                        <p className="OfferName">Güvənli çatdırılma.</p>
+                        <p className="Offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
                     </div>
-                    <div className="offer_div">
-                        <p className="offer_icon">
+                    <div className="OfferDiv">
+                        <p className="OfferIcon">
                             <i className="fas fa-arrow-alt-circle-down"></i>
                         </p>
-                        <p className="offer_name">Güvənli çatdırılma.</p>
-                        <p className="offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
+                        <p className="OfferName">Güvənli çatdırılma.</p>
+                        <p className="Offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
                     </div>
-                    <div className="offer_div">
-                        <p className="offer_icon">
+                    <div className="OfferDiv">
+                        <p className="OfferIcon">
                             <i className="fas fa-award"></i>
                         </p>
-                        <p className="offer_name">Güvənli çatdırılma.</p>
-                        <p className="offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
+                        <p className="OfferName">Güvənli çatdırılma.</p>
+                        <p className="Offer">Sizin sifarişləriniz ən qısa zamanda çatdırılacaq.</p>
                     </div>
                 </div>
             </div>
